@@ -17,7 +17,7 @@ namespace Exam
         private int questionMark;
         private string answer;
 
-        protected static List<int> selectedQuestions = new List<int>();
+        public static List<int> selectedQuestions = new List<int>();
         public static List<string> questionLevels = new List<string>();
         public static List<string> questions = new List<string>();
         public static List<int> questionMarks = new List<int>();
