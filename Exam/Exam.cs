@@ -10,6 +10,7 @@ namespace Exam
     {
         public DateTime DateOfExam { get; set; }
         public int NumberOfQuestions { get; set; }
+
         public static int GradeOfExam = 0;
 
         public Exam(DateTime dateOfExam, int numberOfQuestions)
@@ -17,7 +18,6 @@ namespace Exam
             DateOfExam = dateOfExam;
             NumberOfQuestions = numberOfQuestions;            
         }
-
         public abstract void StartExam();
     }
 }

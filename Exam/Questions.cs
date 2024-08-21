@@ -17,7 +17,7 @@ namespace Exam
         private int questionMark;
         private string answer;
 
-        public static List<int> selectedQuestions = new List<int>(); // [1 - 2]
+        protected static List<int> selectedQuestions = new List<int>();
         public static List<string> questionLevels = new List<string>();
         public static List<string> questions = new List<string>();
         public static List<int> questionMarks = new List<int>();
@@ -25,7 +25,7 @@ namespace Exam
         public static List<string> allChooises = new List<string>();
         public static List<string> multipleChoises = new List<string>();
 
-        private void CheckLevel()
+        private bool CheckLevel()
         {
             do
             {
@@ -35,25 +35,30 @@ namespace Exam
             } while (questionLevel != "Easy" && questionLevel != "Mid" && questionLevel != "Hard");
 
             questionLevels.Add(questionLevel);
+            return true;
         }
-        private void CheckQuestion()
+        private bool CheckQuestion()
         {
             do
             {
                 Console.Write("Enter The Questions With at Least 3 Chars :  ");
                 question = Console.ReadLine();
             } while (question.Length < 3);
+
             questions.Add(question);
+            return true;
         }
-        private void CheckQuestionMark()
+        private bool CheckQuestionMark()
         {
             do
             {
                 Console.Write("Enter The Mark Of Questions And Must Be A Number At Least Equal '1' :  ");
                 questionMark = int.Parse(Console.ReadLine());
-                questionMarks.Add(questionMark);
-                GradeOfExam += questionMark;
             } while (questionMark <= 0);
+
+            GradeOfExam += questionMark;
+            questionMarks.Add(questionMark);
+            return true;
         }
         public override void StartExam()
         {
@@ -73,7 +78,7 @@ namespace Exam
                     switch (selectedQuestion)
                     {
                         case 1:
-                            CheckLevel();                          
+                            CheckLevel();                      
 
                             CheckQuestion();
 
@@ -81,10 +86,10 @@ namespace Exam
 
                             do
                             {
-                                Console.Write("Select The Answer (True/False):  ");
+                                Console.Write("Select The Right Answer (True/False):  ");
                                 answer = Console.ReadLine();
-                                answers.Add(answer);
                             } while(answer != "True" && answer != "False");
+                            answers.Add(answer);
                             break;
 
                         case 2:
@@ -103,10 +108,10 @@ namespace Exam
 
                             do
                             {
-                                Console.Write("Select The Answer (1 - 2 - 3 - 4):  ");
+                                Console.Write("Select The Right Answer (1 - 2 - 3 - 4):  ");
                                 answer = Console.ReadLine();
-                                answers.Add(answer);
                             } while (answer != "1" && answer != "2" && answer != "3" && answer != "4");
+                            answers.Add(answer);
                             break;
 
                         case 3:
@@ -125,10 +130,10 @@ namespace Exam
 
                             do
                             {
-                                Console.Write("Select The Answer Selected as 1/2..1/2/3:  ");
+                                Console.Write("Select The Right Answer Selected as 1/2..1/2/3:  ");
                                 answer = Console.ReadLine();
-                                answers.Add(answer);
                             } while (answer != "1/2" && answer != "1/3" && answer != "2/3" && answer != "1/2/3");                                                        
+                            answers.Add(answer);
                             break;
                     }
 

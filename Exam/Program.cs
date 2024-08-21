@@ -6,8 +6,6 @@
         {
             char ch;
             int numOfQ;
-            //int numOfA = 1;
-
             do {
                 Console.Write("Choose Between Teacher Or Student Select [T - S]  ");
                 ch = char.Parse(Console.ReadLine());

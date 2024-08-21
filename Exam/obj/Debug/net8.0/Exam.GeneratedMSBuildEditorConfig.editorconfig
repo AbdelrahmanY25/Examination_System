@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exam
-build_property.ProjectDir = D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination System\Exam\Exam\
+build_property.ProjectDir = D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

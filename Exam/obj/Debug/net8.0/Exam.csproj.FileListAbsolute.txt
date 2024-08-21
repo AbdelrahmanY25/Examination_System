@@ -26,3 +26,18 @@ D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination System\Exam\Exam\ob
 D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination System\Exam\Exam\obj\Debug\net8.0\Exam.pdb
 D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination System\Exam\Exam\obj\Debug\net8.0\Exam.genruntimeconfig.cache
 D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination System\Exam\Exam\obj\Debug\net8.0\ref\Exam.dll
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\bin\Debug\net8.0\Exam.exe
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\bin\Debug\net8.0\Exam.deps.json
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\bin\Debug\net8.0\Exam.runtimeconfig.json
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\bin\Debug\net8.0\Exam.dll
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\bin\Debug\net8.0\Exam.pdb
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.AssemblyInfoInputs.cache
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.AssemblyInfo.cs
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.csproj.CoreCompileInputs.cache
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.sourcelink.json
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.dll
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\refint\Exam.dll
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.pdb
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\Exam.genruntimeconfig.cache
+D:\My_Projects\Back End C# Asp .Net\Eraasoft Lec\Examination_System\Exam\obj\Debug\net8.0\ref\Exam.dll

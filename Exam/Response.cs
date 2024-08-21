@@ -8,10 +8,7 @@ namespace Exam
 {
     internal class Response : Questions
     {
-        public Response(DateTime dateOfExam, int numberOfQuestions) : base(dateOfExam, numberOfQuestions) 
-        {
-            
-        }
+        public Response(DateTime dateOfExam, int numberOfQuestions) : base(dateOfExam, numberOfQuestions) {}
 
         private string studentAnswer;
         private int studentGrades;

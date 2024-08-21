@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination System\\Exam\\Exam\\Exam.csproj": {}
+    "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination_System\\Exam\\Exam.csproj": {}
   },
   "projects": {
-    "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination System\\Exam\\Exam\\Exam.csproj": {
+    "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination_System\\Exam\\Exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination System\\Exam\\Exam\\Exam.csproj",
+        "projectUniqueName": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination_System\\Exam\\Exam.csproj",
         "projectName": "Exam",
-        "projectPath": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination System\\Exam\\Exam\\Exam.csproj",
+        "projectPath": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination_System\\Exam\\Exam.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination System\\Exam\\Exam\\obj\\",
+        "outputPath": "D:\\My_Projects\\Back End C# Asp .Net\\Eraasoft Lec\\Examination_System\\Exam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
